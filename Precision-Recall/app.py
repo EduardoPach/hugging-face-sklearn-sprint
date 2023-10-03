@@ -7,7 +7,7 @@ from sklearn.multiclass import OneVsRestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import label_binarize, StandardScaler
 
-import utils
+from . import utils
 
 
 def app_fn(n_random_features: int, test_size: float, random_state_val: int):

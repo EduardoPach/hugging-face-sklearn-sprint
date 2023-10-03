@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import gradio as gr
 
-import utils
+from . import utils
 
 def app_fn(
         noise, 

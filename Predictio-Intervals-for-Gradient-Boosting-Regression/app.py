@@ -6,7 +6,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from sklearn.model_selection import train_test_split
 
-import utils
+from . import utils
 
 
 def app_fn(

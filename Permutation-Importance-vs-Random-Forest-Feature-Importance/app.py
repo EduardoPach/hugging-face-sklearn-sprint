@@ -9,7 +9,7 @@ from sklearn.preprocessing import OrdinalEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
-import utils
+from . import utils
 
 
 

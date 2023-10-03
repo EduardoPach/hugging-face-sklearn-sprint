@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import FunctionTransformer, OneHotEncoder
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, RandomTreesEmbedding
 
-import utils
+from . import utils
 
 def app_fn(n_samples: int, n_estimators: int, max_depth: int): 
     # Create Data
